@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    background-color:honeydew;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    background-color: #184770;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 0.9em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+nav img{
+    width: 70%;
+    display: block;
+    margin-bottom:35px;
+}
+.dashboard{
+    position: fixed;
+    top: 40px;
+    margin-left: 360px;
+    width: 950px;
+    height: 10%;
+    margin-right: 40px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.dashboard a{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    letter-spacing: 0.05em;
+}
+#top {
+    position: fixed;
+    top: 110px;
+    margin-left: 360px;
+    width: 850px;
+    height: 7%;
+    margin-right: 20px;
+    background-color:  #184770;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#top h2{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+#btn{
+    position: fixed;
+    top: 109px;
+    width: 50px;
+    height: 7.2%;
+    margin-left: 1190px;
+    background-color:  #184770;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
